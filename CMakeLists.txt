@@ -3,4 +3,4 @@ project(labs2sem)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(labs2sem sortings/bubble.cpp)
+add_executable(labs2sem  sortings/selection.cpp)
