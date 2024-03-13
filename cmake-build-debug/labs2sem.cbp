@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/stg05/CLionProjects/labs2sem/main.cpp">
+		<Unit filename="C:/Users/stg05/CLionProjects/labs2sem/sortings/bubble.cpp">
 			<Option target="labs2sem"/>
 		</Unit>
 		<Unit filename="C:/Users/stg05/CLionProjects/labs2sem/CMakeLists.txt">

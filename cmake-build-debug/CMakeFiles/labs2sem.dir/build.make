@@ -65,27 +65,27 @@ include CMakeFiles/labs2sem.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/labs2sem.dir/flags.make
 
-CMakeFiles/labs2sem.dir/main.cpp.obj: CMakeFiles/labs2sem.dir/flags.make
-CMakeFiles/labs2sem.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\stg05\CLionProjects\labs2sem\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/labs2sem.dir/main.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\labs2sem.dir\main.cpp.obj -c C:\Users\stg05\CLionProjects\labs2sem\main.cpp
+CMakeFiles/labs2sem.dir/sortings/bubble.cpp.obj: CMakeFiles/labs2sem.dir/flags.make
+CMakeFiles/labs2sem.dir/sortings/bubble.cpp.obj: ../sortings/bubble.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\stg05\CLionProjects\labs2sem\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/labs2sem.dir/sortings/bubble.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\labs2sem.dir\sortings\bubble.cpp.obj -c C:\Users\stg05\CLionProjects\labs2sem\sortings\bubble.cpp
 
-CMakeFiles/labs2sem.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/labs2sem.dir/main.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\stg05\CLionProjects\labs2sem\main.cpp > CMakeFiles\labs2sem.dir\main.cpp.i
+CMakeFiles/labs2sem.dir/sortings/bubble.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/labs2sem.dir/sortings/bubble.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\stg05\CLionProjects\labs2sem\sortings\bubble.cpp > CMakeFiles\labs2sem.dir\sortings\bubble.cpp.i
 
-CMakeFiles/labs2sem.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/labs2sem.dir/main.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\stg05\CLionProjects\labs2sem\main.cpp -o CMakeFiles\labs2sem.dir\main.cpp.s
+CMakeFiles/labs2sem.dir/sortings/bubble.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/labs2sem.dir/sortings/bubble.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\stg05\CLionProjects\labs2sem\sortings\bubble.cpp -o CMakeFiles\labs2sem.dir\sortings\bubble.cpp.s
 
 # Object files for target labs2sem
 labs2sem_OBJECTS = \
-"CMakeFiles/labs2sem.dir/main.cpp.obj"
+"CMakeFiles/labs2sem.dir/sortings/bubble.cpp.obj"
 
 # External object files for target labs2sem
 labs2sem_EXTERNAL_OBJECTS =
 
-labs2sem.exe: CMakeFiles/labs2sem.dir/main.cpp.obj
+labs2sem.exe: CMakeFiles/labs2sem.dir/sortings/bubble.cpp.obj
 labs2sem.exe: CMakeFiles/labs2sem.dir/build.make
 labs2sem.exe: CMakeFiles/labs2sem.dir/linklibs.rsp
 labs2sem.exe: CMakeFiles/labs2sem.dir/objects1.rsp

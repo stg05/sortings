@@ -128,29 +128,29 @@ labs2sem/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\labs2sem.dir\build.make CMakeFiles/labs2sem.dir/build
 .PHONY : labs2sem/fast
 
-main.obj: main.cpp.obj
-.PHONY : main.obj
+sortings/bubble.obj: sortings/bubble.cpp.obj
+.PHONY : sortings/bubble.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\labs2sem.dir\build.make CMakeFiles/labs2sem.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+sortings/bubble.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\labs2sem.dir\build.make CMakeFiles/labs2sem.dir/sortings/bubble.cpp.obj
+.PHONY : sortings/bubble.cpp.obj
 
-main.i: main.cpp.i
-.PHONY : main.i
+sortings/bubble.i: sortings/bubble.cpp.i
+.PHONY : sortings/bubble.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\labs2sem.dir\build.make CMakeFiles/labs2sem.dir/main.cpp.i
-.PHONY : main.cpp.i
+sortings/bubble.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\labs2sem.dir\build.make CMakeFiles/labs2sem.dir/sortings/bubble.cpp.i
+.PHONY : sortings/bubble.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+sortings/bubble.s: sortings/bubble.cpp.s
+.PHONY : sortings/bubble.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\labs2sem.dir\build.make CMakeFiles/labs2sem.dir/main.cpp.s
-.PHONY : main.cpp.s
+sortings/bubble.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\labs2sem.dir\build.make CMakeFiles/labs2sem.dir/sortings/bubble.cpp.s
+.PHONY : sortings/bubble.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... labs2sem
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... sortings/bubble.obj
+	@echo ... sortings/bubble.i
+	@echo ... sortings/bubble.s
 .PHONY : help
 
 
