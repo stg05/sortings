@@ -17,13 +17,11 @@ void print_array(int *arr, size_t size) {
     cout << ']'<<'\n';
 }
 
-void insertion_sort(int *arr, size_t size) {
+void quick_sort(int *arr, size_t size) {
     while(size>1) {
         for (size_t i = 0; i < size - 1; i++) {
             if (arr[i] > arr[i + 1]) {
-                int cur = arr[i];
-                arr[i] = arr[i + 1];
-                arr[i + 1] = cur;
+                swap(arr[i], arr[i+1]);
             }
         }
         size--;
