@@ -21,7 +21,7 @@ void print_array(int *arr, size_t size) {
     cout << ']' << '\n';
 }
 
-void quick_sort(int *arr, size_t start, size_t end) {
+void merge_sort(int *arr, size_t start, size_t end) {
     int idx_left = start - 1, idx_right = start - 1;
     while (true) {
         idx_right++;
@@ -37,11 +37,11 @@ void quick_sort(int *arr, size_t start, size_t end) {
     }
     if (start != idx_left - 1) {
         if (idx_left > start) {
-            quick_sort(arr, start, idx_left - 1);
+            merge_sort(arr, start, idx_left - 1);
         }
     }
     if (idx_left + 1 < end) {
-        quick_sort(arr, idx_left + 1, end);
+        merge_sort(arr, idx_left + 1, end);
     }
 
 
@@ -58,7 +58,7 @@ int main() {
         arr[i] = dist(eng);
     }
     print_array(arr, arr_size);
-    quick_sort(arr, 0, arr_size - 1);
+    merge_sort(arr, 0, arr_size - 1);
     print_array(arr, arr_size);
 
     return 0;
