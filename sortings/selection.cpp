@@ -1,3 +1,7 @@
+//
+// Created by stg05 on 13.03.2024.
+//
+
 #include <iostream>
 #include <ctime>
 #include <random>
@@ -14,16 +18,20 @@ void print_array(int *arr, size_t size) {
             cout << ", ";
         }
     }
-    cout << ']'<<'\n';
+    cout << ']' << '\n';
 }
 
-void quick_sort(int *arr, size_t size) {
-    while(size>1) {
-        for (size_t i = 0; i < size - 1; i++) {
-            if (arr[i] > arr[i + 1]) {
-                swap(arr[i], arr[i+1]);
+void selection_sort(int *arr, size_t size) {
+    while (size > 1) {
+        int *max = arr;
+        for (size_t i = 0; i < size; i++) {
+            if (*(arr + i) > *max) {
+                max = arr + i;
             }
         }
+        int cur = *(arr + size - 1);
+        *(arr + size - 1) = *max;
+        *max = cur;
         size--;
     }
 }
@@ -39,7 +47,7 @@ int main() {
         arr[i] = dist(eng);
     }
     print_array(arr, arr_size);
-    bubble_sort(arr, arr_size);
+    selection_sort(arr, arr_size);
     print_array(arr, arr_size);
 
     return 0;
